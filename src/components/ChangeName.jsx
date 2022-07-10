@@ -35,7 +35,7 @@ export default function ChangeQuantity(props) {
         onClick={() => {
           changeQuantity(quantity);
         }}
-        className="bg-red-500 px-6 py-2 rounded-sm text-xs font-semibold uppercase text-white cursor-pointer"
+        className="bg-red-500 px-6 py-3 rounded-sm text-xs font-semibold uppercase text-white cursor-pointer"
       >
         Batch Buy
       </button>
