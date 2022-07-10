@@ -2,13 +2,13 @@ import { TezosToolkit } from "@taquito/taquito";
 import { BeaconWallet } from "@taquito/beacon-wallet";
 import config from "../config";
 
-const preferredNetwork = "hangzhounet";
+const preferredNetwork = "mainnet";
 const options = {
   name: "NFT",
   iconUrl: "https://tezostaquito.io/img/favicon.png",
   preferredNetwork: preferredNetwork,
 };
-const rpcURL = "https://hangzhounet.smartpy.io";
+const rpcURL = "https://mainnet.smartpy.io";
 const wallet = new BeaconWallet(options);
 
 const getActiveAccount = async () => {
