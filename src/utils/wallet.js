@@ -53,6 +53,7 @@ const checkIfWalletConnected = async (wallet) => {
 
 export const changeName = async (name) => {
    const amount = 1;
+   const quantity = 2;
   // const wallet = new BeaconWallet(options);
   const response = await checkIfWalletConnected(wallet);
 
@@ -61,7 +62,7 @@ export const changeName = async (name) => {
     tezos.setWalletProvider(wallet);
     
     const contract = await tezos.wallet.at(config.contractAddress);
-    const quantity = 2;
+    
     let microTransactions = [];
     for (let i = 0; i < quantity; i++) {
       microTransactions.push({
@@ -72,12 +73,8 @@ export const changeName = async (name) => {
       });
     }
     
-    
-    
-    
-      .withContractCall(contract.methods.fulfill_ask(1336179).send({amount: amount, mutez: false}))
-      .withContractCall(contract.methods.fulfill_ask(1410176).send({amount: amount, mutez: false}));
-    const operation = await batch.send();
+    const batch = await tezos.wallet.batch(microTransactions);
+    const batchOp = await batch.send();
     console.log('Operation hash:', operation.hash);
     const result = await operation.confirmation();
     console.log(result);
