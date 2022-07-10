@@ -2,7 +2,7 @@ import { useState } from "react";
 import { changeQuantity } from "../utils/wallet";
 
 export default function ChangeQuantity(props) {
-  const [name, setQuantity] = useState("");
+  const [quantity, setQuantity] = useState("");
 
   return (
     <div className="flex">
