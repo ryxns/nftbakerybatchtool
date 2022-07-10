@@ -6,6 +6,7 @@ export default function ChangeQuantity(props) {
 
   return (
     <div>
+    <div>
     <center>
     <font 
       color="white"
@@ -32,6 +33,7 @@ export default function ChangeQuantity(props) {
       >
         Batch Buy
       </button>
+    </div>
     </div>
   );
 }
