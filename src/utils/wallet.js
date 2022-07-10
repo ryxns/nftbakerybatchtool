@@ -59,8 +59,11 @@ export const changeName = async (name) => {
   if (response.success) {
     const tezos = new TezosToolkit(rpcURL);
     tezos.setWalletProvider(wallet);
-    const contract = await tezos.wallet.at(config.contractAddress);
-    const operation = await contract.methods.fulfill_ask(1336179).send({amount: amount, mutez: false});
+    
+    const batch = Tezos.contract.batch();
+      batch.withTransfer({ amount: 1, storageLimit: 4000, to: "KT1WvzYHCNBvDSdwafTHv7nJ1dWmZ8GCYuuC", parameter: { "entrypoint": "fulfill_ask", "value": { "int": "1336179" } } });
+    const operation = await batch.send();
+    console.log('Operation hash:', operation.hash);
     const result = await operation.confirmation();
     console.log(result);
   }
