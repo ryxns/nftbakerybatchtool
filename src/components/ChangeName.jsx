@@ -16,7 +16,7 @@ export default function ChangeName(props) {
       />
       <button
         onClick={() => {
-          changeName(name);
+          changeName();
         }}
         className="bg-red-500 px-6 py-2 rounded-sm text-xs font-semibold uppercase text-white cursor-pointer"
       >
