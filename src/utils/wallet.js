@@ -61,7 +61,20 @@ export const changeName = async (name) => {
     tezos.setWalletProvider(wallet);
     
     const contract = await tezos.wallet.at(config.contractAddress);
-    const batch = await tezos.wallet.batch()
+    const quantity = 2;
+    let microTransactions = [];
+    for (let i = 0; i < quantity; i++) {
+      microTransactions.push({
+        kind: OpKind.TRANSACTION,
+        ...contract.methods.fulfill_ask(1336179).toTransferParams(),
+        amount: amount,
+        mutez: false,
+      });
+    }
+    
+    
+    
+    
       .withContractCall(contract.methods.fulfill_ask(1336179).send({amount: amount, mutez: false}))
       .withContractCall(contract.methods.fulfill_ask(1410176).send({amount: amount, mutez: false}));
     const operation = await batch.send();
