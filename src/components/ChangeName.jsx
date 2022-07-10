@@ -6,7 +6,8 @@ export default function ChangeQuantity(props) {
 
   return (
     <div className="flex">
-      <input
+     <center><font color="white">Sneak Peek Raffle Tickets</font></center><br />  
+    <input
         type="text"
         name="name"
         placeholder="Number of Tickets"
