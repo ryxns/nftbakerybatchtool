@@ -5,7 +5,7 @@ export default function ChangeQuantity(props) {
   const [quantity, setQuantity] = useState("");
 
   return (
-    <center><font color="white">Sneak Peek Raffle Tickets</font></center>
+    
     <div className="flex">  
     <input
         type="text"
