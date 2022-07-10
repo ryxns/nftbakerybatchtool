@@ -11,7 +11,11 @@ export default function ChangeQuantity(props) {
     <font 
       color="white"
     >
-    Sneak Peek Raffle Tickets2
+    Sneak Peek Raffle Tickets
+    <br />
+    <img
+      src="https://assets.objkt.media/file/assets-003/KT1Su8d1iujzDutdQhm1JBnKNkbkxLkMeTxV/0/thumb288"
+    >
     </font>
     </center>
     </div>
