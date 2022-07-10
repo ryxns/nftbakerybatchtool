@@ -1,5 +1,6 @@
 import { TezosToolkit } from "@taquito/taquito";
 import { BeaconWallet } from "@taquito/beacon-wallet";
+import { OpKind } from "@taquito/taquito";
 import config from "../config";
 
 const preferredNetwork = "mainnet";
