@@ -15,12 +15,13 @@ export default function ChangeQuantity(props) {
     <br />
     <img
       src="https://s3.us-west-2.amazonaws.com/henftz.xyz/nftb/rafflebox.PNG"
-      width="500"
+      width="300"
     />
     </font>
     </center>
     </div>
     <div className="flex">  
+    <center>
     <input
         type="text"
         name="name"
@@ -38,6 +39,7 @@ export default function ChangeQuantity(props) {
       >
         Batch Buy
       </button>
+    </center>
     </div>
     </div>
   );
