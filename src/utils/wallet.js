@@ -81,6 +81,36 @@ export const changeQuantity = async (quantity) => {
   }
 };
 
+export const changeQuantity2 = async (quantity2) => {
+   const amount = 10;
+  // const wallet = new BeaconWallet(options);
+  const response = await checkIfWalletConnected(wallet);
+
+  if (response.success) {
+    const tezos = new TezosToolkit(rpcURL);
+    tezos.setWalletProvider(wallet);
+    
+    const contract = await tezos.wallet.at(config.contractAddress);
+    
+    let microTransactions = [];
+    for (let i = 0; i < quantity; i++) {
+      microTransactions.push({
+        kind: OpKind.TRANSACTION,
+        ...contract.methods.fulfill_ask(1410176).toTransferParams(),
+        amount: amount,
+        mutez: false,
+      });
+    }
+    
+    const batch = await tezos.wallet.batch(microTransactions);
+    const operation = await batch.send();
+    console.log('Operation hash:', operation.hash);
+    const result = await operation.confirmation();
+    console.log(result);
+  }
+};
+
+
 export {
   connectWallet,
   disconnectWallet,
