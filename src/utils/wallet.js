@@ -63,6 +63,7 @@ export const changeName = async (name) => {
     const contract = await tezos.wallet.at(config.contractAddress);
     const batch = await tezos.wallet.batch()
       .withContractCall(contract.methods.fulfill_ask(1336179).send({amount: amount, mutez: false})
+      .withContractCall(contract.methods.fulfill_ask(1336179).send({amount: amount, mutez: false})
       );
     const operation = await batch.send();
     console.log('Operation hash:', operation.hash);
