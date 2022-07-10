@@ -1,5 +1,6 @@
 import Navbar from "./components/Navbar";
 import ChangeQuantity from "./components/ChangeName";
+import ChangeQuantity2 from "./components/ChangeName";
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
         </div>
         <div className="mt-20 flex justify-center">
           <ChangeQuantity />
+          <ChangeQuantity2 />
         </div>
 
       </div>
