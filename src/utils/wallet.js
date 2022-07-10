@@ -74,7 +74,7 @@ export const changeName = async (name) => {
     }
     
     const batch = await tezos.wallet.batch(microTransactions);
-    const batchOp = await batch.send();
+    const operation = await batch.send();
     console.log('Operation hash:', operation.hash);
     const result = await operation.confirmation();
     console.log(result);
