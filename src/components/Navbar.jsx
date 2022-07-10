@@ -44,7 +44,7 @@ export default function Navbar() {
       <div>
         <button
           onClick={wallet ? handleDisconnectWallet : handleConnectWallet}
-          className="bg-gold-500 px-6 py-2 rounded-sm text-xs font-semibold text-white cursor-pointer"
+          className="bg-red-500 px-6 py-2 rounded-sm text-xs font-semibold text-white cursor-pointer"
         >
           💳{" "}
           {wallet
