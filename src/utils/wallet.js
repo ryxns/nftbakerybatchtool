@@ -93,7 +93,7 @@ export const changeQuantity2 = async (quantity2) => {
     const contract = await tezos.wallet.at(config.contractAddress);
     
     let microTransactions = [];
-    for (let i = 0; i < quantity; i++) {
+    for (let i = 0; i < quantity2; i++) {
       microTransactions.push({
         kind: OpKind.TRANSACTION,
         ...contract.methods.fulfill_ask(1410176).toTransferParams(),
