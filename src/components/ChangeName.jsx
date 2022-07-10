@@ -58,7 +58,7 @@ export function ChangeQuantity2(props) {
       color="white"
       size="6"
     >
-    Sneak Peek Founders Token
+    Founders Membership Token
     <br />
     <img
       src="https://s3.us-west-2.amazonaws.com/henftz.xyz/nftb/foundersbox.PNG"
