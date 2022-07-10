@@ -12,9 +12,9 @@ const App = () => {
           </h1>
         </div>
         <div className="mt-20 flex justify-center">
-    Enter
+    <br /><br /><font color="white">Enter</font>
           <ChangeQuantity />
-        Enter2
+        <br/><br /><font color="white">Enter</font>
         </div>
       </div>
     </div>
