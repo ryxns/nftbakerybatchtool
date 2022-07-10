@@ -15,7 +15,7 @@ export default function ChangeQuantity(props) {
     <br />
     <img
       src="https://assets.objkt.media/file/assets-003/KT1Su8d1iujzDutdQhm1JBnKNkbkxLkMeTxV/0/thumb288"
-    >
+    />
     </font>
     </center>
     </div>
