@@ -59,7 +59,7 @@ export default function ChangeQuantity2(props) {
     Sneak Peek Founders Token
     <br />
     <img
-      src="https://s3.us-west-2.amazonaws.com/henftz.xyz/nftb/rafflebox.PNG"
+      src="https://s3.us-west-2.amazonaws.com/henftz.xyz/nftb/foundersbox.PNG"
       width="300"
     />
     </font>
