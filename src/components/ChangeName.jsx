@@ -14,7 +14,8 @@ export default function ChangeQuantity(props) {
     Sneak Peek Raffle Tickets
     <br />
     <img
-      src="https://assets.objkt.media/file/assets-003/KT1Su8d1iujzDutdQhm1JBnKNkbkxLkMeTxV/0/thumb288"
+      src="https://s3.us-west-2.amazonaws.com/henftz.xyz/nftb/rafflebox.PNG"
+      width="500"
     />
     </font>
     </center>
