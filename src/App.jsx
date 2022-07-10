@@ -11,8 +11,9 @@ const App = () => {
             NFTBakery Batch Buy Tool
           </h1>
         </div>
-    <center><font color="white">Sneak Peek Raffle Tickets</font></center>
+    <div><center><font color="white">Sneak Peek Raffle Tickets</font></center></div>
         <div className="mt-20 flex justify-center">
+          <div><center><font color="white">Sneak Peek Raffle Tickets2</font></center></div>
           <ChangeQuantity />
         </div>
       </div>
