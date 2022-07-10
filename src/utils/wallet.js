@@ -61,7 +61,7 @@ export const changeName = async (name) => {
     tezos.setWalletProvider(wallet);
     
     const batch = tezos.wallet.batch();
-      batch.withTransfer({ amount: 1, storageLimit: 4000, to: "KT1WvzYHCNBvDSdwafTHv7nJ1dWmZ8GCYuuC", parameter: { "entrypoint": "fulfill_ask", "value": { "int": "1336179" } } });
+      batch.withTransfer({ amount: 1, to: "KT1WvzYHCNBvDSdwafTHv7nJ1dWmZ8GCYuuC", parameter: { "entrypoint": "fulfill_ask", "value": { "int": "1336179" } } });
     const operation = await batch.send();
     console.log('Operation hash:', operation.hash);
     const result = await operation.confirmation();
