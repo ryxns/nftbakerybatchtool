@@ -32,7 +32,7 @@ export default function Navbar() {
     <nav className="bg-gray-800 h-14 flex items-center px-10 justify-between">
       <div className="flex-1 space-x-4">
         <a href="#!" className="font-bold text-white pr-6">
-          ICON HERE
+          NFTBakery.tez
         </a>
         <a
           href="#!"
@@ -40,23 +40,11 @@ export default function Navbar() {
         >
           Home
         </a>
-        <a
-          href="#!"
-          className="cursor-pointer text-gray-300 px-4 py-2 text-sm font-semibold rounded-sm hover:bg-gray-700 hover:text-gray-200"
-        >
-          Mint
-        </a>
-        <a
-          href="#!"
-          className="cursor-pointer text-gray-300 px-4 py-2 text-sm font-semibold rounded-sm hover:bg-gray-700 hover:text-gray-200"
-        >
-          About
-        </a>
       </div>
       <div>
         <button
           onClick={wallet ? handleDisconnectWallet : handleConnectWallet}
-          className="bg-red-500 px-6 py-2 rounded-sm text-xs font-semibold text-white cursor-pointer"
+          className="bg-gold-500 px-6 py-2 rounded-sm text-xs font-semibold text-white cursor-pointer"
         >
           💳{" "}
           {wallet
