@@ -38,7 +38,7 @@ export default function Navbar() {
           href="#!"
           className="bg-black text-gray-200 px-4 py-2 text-sm font-semibold rounded-sm"
         >
-          Home
+          Sneak Peek Raffle
         </a>
       </div>
       <div>
