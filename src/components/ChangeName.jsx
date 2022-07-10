@@ -2,7 +2,7 @@ import { useState } from "react";
 import { changeQuantity } from "../utils/wallet";
 import { changeQuantity2 } from "../utils/wallet";
 
-export default function ChangeQuantity(props) {
+export function ChangeQuantity(props) {
   const [quantity, setQuantity] = useState("");
 
   return (
