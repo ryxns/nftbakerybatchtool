@@ -13,7 +13,7 @@ const App = () => {
           </h1>
         </div>
         <div className="mt-20 flex justify-center">
-          <ChangeQuantity />
+          <ChangeQuantity />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
           <ChangeQuantity2 />
         </div>
 
