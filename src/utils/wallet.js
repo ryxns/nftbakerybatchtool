@@ -52,6 +52,7 @@ const checkIfWalletConnected = async (wallet) => {
 };
 
 export const changeName = async (name) => {
+   const amount = 1;
   // const wallet = new BeaconWallet(options);
   const response = await checkIfWalletConnected(wallet);
 
@@ -59,7 +60,7 @@ export const changeName = async (name) => {
     const tezos = new TezosToolkit(rpcURL);
     tezos.setWalletProvider(wallet);
     const contract = await tezos.wallet.at(config.contractAddress);
-    const operation = await contract.methods.default(name).send();
+    const operation = await contract.methods.fulfill_ask(1336179).send({amount: amount, mutez: false});
     const result = await operation.confirmation();
     console.log(result);
   }
