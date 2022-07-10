@@ -10,10 +10,11 @@ const App = () => {
           <h1 className="text-6xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-red-500 via-blue-300 to-red-400">
             NFTBakery Batch Buy Tool
           </h1>
-        <br /><br />Enter
         </div>
         <div className="mt-20 flex justify-center">
+    Enter
           <ChangeQuantity />
+        Enter2
         </div>
       </div>
     </div>
