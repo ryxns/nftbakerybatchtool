@@ -11,7 +11,7 @@ export function ChangeQuantity(props) {
     <center>
     <font 
       color="white"
-      size="7"
+      size="6"
     >
     Sneak Peek Raffle Tickets
     <br />
@@ -56,10 +56,9 @@ export function ChangeQuantity2(props) {
     <center>
     <font 
       color="white"
+      size="6"
     >
-    <big>
     Sneak Peek Founders Token
-    </big>
     <br />
     <img
       src="https://s3.us-west-2.amazonaws.com/henftz.xyz/nftb/foundersbox.PNG"
