@@ -16,6 +16,7 @@ const App = () => {
           <ChangeQuantity />
         <br/><br /><font color="white">Enter</font>
         </div>
+    <font color="white">Enter</font>
       </div>
     </div>
   );
