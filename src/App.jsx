@@ -14,9 +14,9 @@ const App = () => {
         <div className="mt-20 flex justify-center">
           <ChangeQuantity />
         </div>
-    <div><center><font color="white">Sneak Peek Raffle Tickets</font></center></div>
+
       </div>
-    <div><center><font color="white">Sneak Peek Raffle Tickets2</font></center></div>
+    
     </div>
   );
 };
