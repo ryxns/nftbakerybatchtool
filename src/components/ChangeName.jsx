@@ -9,6 +9,7 @@ export default function ChangeQuantity(props) {
       <input
         type="text"
         name="name"
+        placeholder="Number of Tickets"
         onChange={(e) => {
           setQuantity(e.target.value);
         }}
