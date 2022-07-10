@@ -8,7 +8,7 @@ const options = {
   iconUrl: "https://tezostaquito.io/img/favicon.png",
   preferredNetwork: preferredNetwork,
 };
-const rpcURL = "https://mainnet.smartpy.io";
+const rpcURL = "https://mainnet-tezos.giganode.io";
 const wallet = new BeaconWallet(options);
 
 const getActiveAccount = async () => {
