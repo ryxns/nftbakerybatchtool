@@ -11,10 +11,10 @@ const App = () => {
             NFTBakery Batch Buy Tool
           </h1>
         </div>
+    <center><font color="white">Sneak Peek Raffle Tickets</font></center>
         <div className="mt-20 flex justify-center">
           <ChangeQuantity />
         </div>
-    <center><font color="white">Sneak Peek Raffle Tickets</font></center>
       </div>
     </div>
   );
