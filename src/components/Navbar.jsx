@@ -35,7 +35,8 @@ export default function Navbar() {
           NFTBakery.tez
         </a>
         <a
-          href="#!"
+          href="https://objkt.com/profile/nftbakery/created"
+          target="_blank"
           className="bg-black text-gray-200 px-4 py-2 text-sm font-semibold rounded-sm"
         >
           Fresh Batches!
