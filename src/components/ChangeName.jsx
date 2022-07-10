@@ -46,7 +46,7 @@ export default function ChangeQuantity(props) {
   );
 }
 
-export default function ChangeQuantity2(props) {
+export function ChangeQuantity2(props) {
   const [quantity2, setQuantity2] = useState("");
 
   return (
