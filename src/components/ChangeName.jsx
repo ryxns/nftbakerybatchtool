@@ -11,10 +11,9 @@ export function ChangeQuantity(props) {
     <center>
     <font 
       color="white"
+      size="7"
     >
-    <h1 style="color:red;font-size:40px;">
     Sneak Peek Raffle Tickets
-    </h1>
     <br />
     <img
       src="https://s3.us-west-2.amazonaws.com/henftz.xyz/nftb/rafflebox.PNG"
