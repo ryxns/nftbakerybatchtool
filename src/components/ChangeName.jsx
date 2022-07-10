@@ -67,7 +67,7 @@ export function ChangeQuantity2(props) {
     </font>
     </center>
     </div>
-    <div className="flex">  
+    <div>  
     <center>
     <input
         type="text"
