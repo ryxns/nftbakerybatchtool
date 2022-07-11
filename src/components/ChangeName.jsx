@@ -13,7 +13,12 @@ export function ChangeQuantity(props) {
       color="white"
       size="6"
     >
-    Sneak Peek Raffle Tickets - 1 xtz each
+    Sneak Peek Raffle Ticket
+    </font>
+    <font 
+      color="white"
+    >
+    - 1 xtz each
     <br />
     <img
       src="https://s3.us-west-2.amazonaws.com/henftz.xyz/nftb/rafflebox.PNG"
@@ -58,7 +63,12 @@ export function ChangeQuantity2(props) {
       color="white"
       size="6"
     >
-    Founders Edition Tokens - 10 xtz each
+    Founders Edition Tokens
+    </font>
+    <font 
+      color="white"
+    >
+    - 10 xtz each
     <br />
     <img
       src="https://s3.us-west-2.amazonaws.com/henftz.xyz/nftb/foundersbox.PNG"
