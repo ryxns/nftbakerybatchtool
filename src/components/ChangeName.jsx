@@ -18,7 +18,8 @@ export function ChangeQuantity(props) {
     <font 
       color="white"
     >
-    - 1 xtz each
+    <br />
+    &nbsp; - 1 xtz each
     <br />
     <img
       src="https://s3.us-west-2.amazonaws.com/henftz.xyz/nftb/rafflebox.PNG"
@@ -68,7 +69,8 @@ export function ChangeQuantity2(props) {
     <font 
       color="white"
     >
-    - 10 xtz each
+    <br />
+    &nbsp; - 10 xtz each
     <br />
     <img
       src="https://s3.us-west-2.amazonaws.com/henftz.xyz/nftb/foundersbox.PNG"
