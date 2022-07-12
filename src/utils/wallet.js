@@ -96,7 +96,7 @@ export const changeQuantity2 = async (quantity2) => {
     for (let i = 0; i < quantity2; i++) {
       microTransactions.push({
         kind: OpKind.TRANSACTION,
-        ...contract.methods.fulfill_ask(1410176).toTransferParams(),
+        ...contract.methods.fulfill_ask(1793281).toTransferParams(),
         amount: amount,
         mutez: false,
       });
