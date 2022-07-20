@@ -33,7 +33,7 @@ export function ChangeQuantity(props) {
     <input
         type="text"
         name="name"
-        placeholder="Number of Tickets"
+        placeholder="Number of Tokens"
         onChange={(e) => {
           setQuantity(e.target.value);
         }}
