@@ -13,7 +13,7 @@ export function ChangeQuantity(props) {
       color="white"
       size="6"
     >
-    Sneak Peek Raffle Ticket
+    Jackpot Tokens
     </font>
     <font 
       color="white"
@@ -22,7 +22,7 @@ export function ChangeQuantity(props) {
    1 xtz each
     <br />
     <img
-      src="https://s3.us-west-2.amazonaws.com/henftz.xyz/nftb/rafflebox.PNG"
+      src="https://s3.us-west-2.amazonaws.com/henftz.xyz/nftb/jackpot.PNG"
       width="300"
     />
     </font>
