@@ -22,7 +22,7 @@ export function ChangeQuantity(props) {
    1 xtz each
     <br />
     <img
-      src="https://s3.us-west-2.amazonaws.com/henftz.xyz/nftb/jackpot.PNG"
+      src="https://s3.us-west-2.amazonaws.com/henftz.xyz/nftb/jackpot.png"
       width="300"
     />
     </font>
