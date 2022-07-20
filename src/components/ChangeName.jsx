@@ -73,7 +73,7 @@ export function ChangeQuantity2(props) {
     10 xtz each
     <br />
     <img
-      src="https://s3.us-west-2.amazonaws.com/henftz.xyz/nftb/foundersbox.PNG"
+      src="https://s3.us-west-2.amazonaws.com/henftz.xyz/nftb/founders.png"
       width="300"
     />
     </font>
