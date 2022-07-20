@@ -19,7 +19,7 @@ export function ChangeQuantity(props) {
       color="white"
     >
     <br />
-   1 xtz each
+   0.77 xtz each
     <br />
     <img
       src="https://s3.us-west-2.amazonaws.com/henftz.xyz/nftb/jackpot.png"
