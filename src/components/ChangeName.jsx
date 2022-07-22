@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { changeQuantity } from "../utils/wallet";
 import { changeQuantity2 } from "../utils/wallet";
+import { changeQuantity3 } from "../utils/wallet";
 
 export function ChangeQuantity(props) {
   const [quantity, setQuantity] = useState("");
@@ -42,6 +43,57 @@ export function ChangeQuantity(props) {
       <button
         onClick={() => {
           changeQuantity(quantity);
+        }}
+        className="bg-red-500 px-6 py-3 rounded-sm text-xs font-semibold uppercase text-white cursor-pointer"
+      >
+        Batch Buy
+      </button>
+    </center>
+    </div>
+    </div>
+  );
+}
+
+export function ChangeQuantity3(props) {
+  const [quantity3, setQuantity3] = useState("");
+
+  return (
+    <div>
+    <div>
+    <center>
+    <font 
+      color="white"
+      size="6"
+    >
+    Raffle #2 Tickets
+    </font>
+    <font 
+      color="white"
+    >
+    <br />
+   1 xtz each
+    <br />
+    <img
+      src="https://s3.us-west-2.amazonaws.com/henftz.xyz/nftb/raffle2.png"
+      width="300"
+    />
+    </font>
+    </center>
+    </div>
+    <div>  
+    <center>
+    <input
+        type="text"
+        name="name"
+        placeholder="Number of Tickets"
+        onChange={(e) => {
+          setQuantity3(e.target.value);
+        }}
+        value={quantity3}
+      />
+      <button
+        onClick={() => {
+          changeQuantity3(quantity3);
         }}
         className="bg-red-500 px-6 py-3 rounded-sm text-xs font-semibold uppercase text-white cursor-pointer"
       >
